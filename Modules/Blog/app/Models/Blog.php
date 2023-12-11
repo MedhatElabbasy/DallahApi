@@ -3,12 +3,14 @@
 namespace Modules\Blog\app\Models;
 
 use Spatie\Sluggable\HasSlug;
+use Spatie\MediaLibrary\HasMedia;
 use Spatie\Sluggable\SlugOptions;
 use Illuminate\Database\Eloquent\Model;
+use Spatie\MediaLibrary\InteractsWithMedia;
 
-class Blog extends Model
+class Blog extends Model implements HasMedia
 {
-    use HasSlug;
+    use HasSlug, InteractsWithMedia;
 
     /**
      * The attributes that are mass assignable.
