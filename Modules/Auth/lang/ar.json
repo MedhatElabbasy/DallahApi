@@ -1,0 +1,14 @@
+{
+    "Error in email or password": "خطأ في البريد الإلكتروني او كلمة السر",
+    "You have been logged in successfully": "تم تسجيل الدخول بنجاح",
+    "A password reset code has been sent": "تم إرسال رمز إعادة تعيين كلمة السر",
+    "The code is valid": "الرمز صالح",
+    "The password has been reset successfully": "تم إعادة تعيين كلمة السر بنجاح",
+    "Sorry, try again later": "عذرًا، حاول مرة أخرى لاحقًا",
+    "Email is not exists": "البريد الإلكتروني غير موجود",
+    "Reset the password": "إعادة تعيين كلمة السر",
+    "Your code": "الكود الخاص بك",
+    "Thanks": "شكرا",
+    "Activate email": "تفعيل البريد الإلكتروني",
+    "Thank you for your registration": "شكرا لتسجيلك"
+}
