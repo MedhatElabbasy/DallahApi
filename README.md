@@ -9,8 +9,9 @@
  - Run `copy .env.example to .env ` on windows
 3. Configure the database settings in .env
 4. Run `php artisan migrate --seed`
-5. Run `php artisan serve`
-6. Visit http://localhost:8000 in your browser
+5. Configure .env file
+6. Run `php artisan serve`
+8. Visit http://localhost:8000 in your browser
 ```
 
 ### API Postman documentation 
