@@ -14,6 +14,6 @@ use Illuminate\Support\Facades\Route;
     |
 */
 
-Route::middleware(['auth:sanctum'])->prefix('v1')->name('api.')->group(function () {
-    Route::get('blog', fn (Request $request) => $request->user())->name('blog');
+Route::prefix('v1')->group(function () {
+    require('api/v1/v1.php');
 });

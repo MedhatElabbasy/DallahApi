@@ -14,5 +14,5 @@ use Illuminate\Http\Request;
 */
 
 Route::prefix('v1')->group(function () {
-    require('api/v1.php');
+    require('api/v1/v1.php');
 });

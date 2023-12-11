@@ -1,11 +1,12 @@
 <?php
 
+
 return [
     'default' => 'default',
     'documentations' => [
         'default' => [
             'api' => [
-                'title' => 'L5 Swagger UI',
+                'title' => 'Dallah API',
             ],
 
             'routes' => [
@@ -40,6 +41,7 @@ return [
                 */
                 'annotations' => [
                     base_path('app'),
+                    base_path('Modules'),
                 ],
 
             ],
